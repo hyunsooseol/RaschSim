@@ -5,9 +5,11 @@
 #' @param persons: the number of persons
 #' @return
 #'
-#' @param i.loc: generating item difficulty parameter
-#' @param p.loc: generating person ability parameter
-#' @param resp: generating personXitem matrix
+#' i.loc: generating item difficulty parameter
+#'
+#' p.loc: generating person ability parameter
+#'
+#' resp: generating personXitem matrix
 #'
 #' @examples
 #'    x<- RaschSim(10, 100)
