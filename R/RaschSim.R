@@ -1,11 +1,18 @@
 #' RaschSim() Function
 #'
 #' This function generates dataset which fits the Rasch measurement model
-#' @param items,persons: two numbers to be operated
+#' @param items: the number of items
+#' @param persons: the number of persons
+#' @return:
+#' i.loc:generating item difficulty parameter
+#' p.loc: generating person ability parameter
+#' resp: generating personXitem matrix
 #' @keywords RaschSim
-#' @export
+#'
 #' @examples
-#' RaschSim(10, 100)
+#'    x<- RaschSim(10, 100)
+#'    x
+#' @export
 
 RaschSim <- function(items, persons) {
 

@@ -7,12 +7,21 @@
 RaschSim(items, persons)
 }
 \arguments{
-\item{items, persons}{: two numbers to be operated}
+\item{items:}{the number of items}
+
+\item{persons:}{the number of persons}
+}
+\value{
+:
+i.loc:generating item difficulty parameter
+p.loc: generating person ability parameter
+resp: generating personXitem matrix
 }
 \description{
 This function generates dataset which fits the Rasch measurement model
 }
 \examples{
-RaschSim(10, 100)
+   x<- RaschSim(10, 100)
+   x
 }
 \keyword{RaschSim}
