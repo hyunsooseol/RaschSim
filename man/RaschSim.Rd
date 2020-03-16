@@ -10,12 +10,15 @@ RaschSim(items, persons)
 \item{items:}{the number of items}
 
 \item{persons:}{the number of persons}
+
+\item{i.loc:}{generating item difficulty parameter}
+
+\item{p.loc:}{generating person ability parameter}
+
+\item{resp:}{generating personXitem matrix}
 }
 \value{
-:
-i.loc:generating item difficulty parameter
-p.loc: generating person ability parameter
-resp: generating personXitem matrix
+
 }
 \description{
 This function generates dataset which fits the Rasch measurement model
@@ -24,4 +27,3 @@ This function generates dataset which fits the Rasch measurement model
    x<- RaschSim(10, 100)
    x
 }
-\keyword{RaschSim}

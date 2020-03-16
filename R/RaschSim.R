@@ -3,11 +3,11 @@
 #' This function generates dataset which fits the Rasch measurement model
 #' @param items: the number of items
 #' @param persons: the number of persons
-#' @return:
-#' i.loc:generating item difficulty parameter
-#' p.loc: generating person ability parameter
-#' resp: generating personXitem matrix
-#' @keywords RaschSim
+#' @return
+#'
+#' @param i.loc: generating item difficulty parameter
+#' @param p.loc: generating person ability parameter
+#' @param resp: generating personXitem matrix
 #'
 #' @examples
 #'    x<- RaschSim(10, 100)
