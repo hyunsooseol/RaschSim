@@ -1,6 +1,6 @@
 Package: RaschSim
 Type: Package
-Title: Generating Binary dataset based on Rasch Measurement Model 
+Title: Generating Binary dataset in the Rasch Measurement Model 
 Version: 0.1.0
 Date: 2020-03-16
 Author: Hyunsoo Seol
